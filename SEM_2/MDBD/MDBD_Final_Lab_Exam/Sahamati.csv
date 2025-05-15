@@ -1,0 +1,816 @@
+Entity name,Category,Regulator,FIP implementation stage,FIU implementation stage
+AU Small Finance Bank Limited,Small Finance Bank,RBI,Live,Live
+Axis Bank,Private Sector Bank,RBI,Live,Live
+Bank of Baroda,Public Sector Bank,RBI,Live,Live
+Bank of India,Public Sector Bank,RBI,Live,Live
+Bank of Maharashtra,Public Sector Bank,RBI,Live,Live
+Canara Bank,Public Sector Bank,RBI,Live,Live
+Central Bank of India,Public Sector Bank,RBI,Live,Live
+Federal Bank,Private Sector Bank,RBI,Live,Live
+HDFC Bank,Private Sector Bank,RBI,Live,Live
+ICICI Bank,Private Sector Bank,RBI,Live,Live
+IDFC First Bank,Private Sector Bank,RBI,Live,Live
+Indian Bank,Public Sector Bank,RBI,Live,Live
+Indian Overseas Bank,Public Sector Bank,RBI,Live,Live
+IndusInd Bank,Private Sector Bank,RBI,Live,Live
+Karnataka Bank,Private Sector Bank,RBI,Live,Live
+Karur Vysya Bank (KVB),Private Sector Bank,RBI,Live,Live
+Kotak Mahindra Bank Limited,Private Sector Bank,RBI,Live,Live
+Punjab National Bank,Public Sector Bank,RBI,Live,Live
+Punjab & Sind Bank,Public Sector Bank,RBI,Live,Live
+SBI,Public Sector Bank,RBI,Live,Live
+Small Industries Development Bank of India (SIDBI),Financial Institution,RBI,Live,Live
+UCO Bank,Public Sector Bank,RBI,Live,Live
+Union Bank of India,Public Sector Bank,RBI,Live,Live
+Yes Bank,Private Sector Bank,RBI,Live,Live
+5Paisa Capital Limited,Stock Broker,SEBI,NA,Live
+Alice Blue Financial Services Pvt Ltd,Stock Broker,SEBI,NA,Live
+Alpha Capital,RIAs,SEBI,NA,Live
+Alphaware Advisory Services Private Limited,RIAs,SEBI,NA,Testing
+Amica Investment Advisers Private Limited (jupiter Money),RIAs,SEBI,NA,Live
+Angel Broking,Stock Broker,SEBI,NA,Testing
+Angel One Limited,Stock Broker,SEBI,NA,Live
+ASK Financial Holdings Pvt Ltd,NBFC,RBI,NA,Evaluating
+ASK Investment Managers Limited,Portfolio Manager,SEBI,NA,Evaluating
+ASK Property Investment Advisors Private Limited,Portfolio Manager,SEBI,NA,Evaluating
+Bajaj Finserv Direct Limited (Bajaj Markets),RIAs,SEBI,NA,Live
+ASK Wealth Advisors Private Limited,RIAs,SEBI,NA,Evaluating
+Bandhan Bank,Private Sector Bank,RBI,Evaluating,Evaluating
+Baroda Gujarat Gramin Bank,RRB,RBI,Live,Live
+Canara HSBC Life Insurance,Private Sector Life,IRDAI,Live,Live
+Circle Wealth Advisors Private Limited,RIAs,SEBI,NA,Evaluating
+Suco Bank,Co-operative Banks,RBI,In-Development,In-Development
+Citibank,Foreign Bank,RBI,Evaluating,Evaluating
+CAMS (myCAMS),RTA,SEBI,NA,Live
+Central Depository Services (India) Limited (CDSL),Depository,SEBI,Live,Evaluating
+Creditenable,NBFC,RBI,NA,Evaluating
+DBS Bank,Foreign Bank,RBI,Live,Testing
+DCB Bank,Private Sector Bank,RBI,Evaluating,Evaluating
+HSBC Bank,Foreign Bank,RBI,Live,Live
+Deutsche Bank AG,Foreign Bank,RBI,Evaluating,Evaluating
+Edelweiss Financial Services Limited,Stock Broker,SEBI,NA,Evaluating
+Aavas Financiers Limited,HFC,RBI,NA,Live
+Aditya Birla Housing Finance Limited,HFC,RBI,NA,Live
+Agrim Housing Finance,HFC,RBI,NA,Live
+Art Housing Finance (India) Limited,HFC,RBI,NA,Live
+Easy Home Finance Limited,HFC,RBI,NA,Live
+Equitas Bank,Small Finance Bank,RBI,Evaluating,Evaluating
+HDFC Ltd,HFC,RBI,NA,Live
+Home First Finance Company India Ltd,HFC,RBI,NA,Live
+IKF Home Finance Private Limited,HFC,RBI,NA,Live
+India Shelter Finance Corporation Limited,HFC,RBI,NA,Live
+KIFS Housing Finance Limited,HFC,RBI,NA,Live
+Aditya Birla Sun Life Insurance Ltd,Private Sector Life,IRDAI,Live,Live
+Bharat Financial Inclusion Ltd,MFI,RBI,NA,In-Development
+121 Finance Private Limited,NBFC-Factors,RBI,NA,Live
+Motilal Oswal Home Finance Limited,HFC,RBI,NA,Live
+Aditya Birla Finance Limited,NBFC,RBI,NA,Live
+Alstromeria Capital Private Limited (Finnxt),NBFC,RBI,NA,Live
+Amros Commercial Private Limited,NBFC,RBI,NA,Live
+Arthan Finance Private Limited,NBFC,RBI,NA,Live
+Ascend Bizcap Private Limited,NBFC,RBI,NA,Live
+ESAF Small Finance Bank,Small Finance Bank,RBI,Evaluating,Evaluating
+Avanse Financial Services Limited,NBFC,RBI,NA,Live
+Axis Finance,NBFC,RBI,NA,Live
+Bajaj Finance Limited (Bajaj Finserv),NBFC-D,RBI,Live,Live
+Bob Financial Solutions Limited,NBFC,RBI,NA,Live
+CapFloat Financial Services Private Limited (axio),NBFC,RBI,NA,Live
+Capital Trust Limited,NBFC,RBI,NA,Live
+Capri Global Capital Limited,NBFC,RBI,NA,Live
+Cars24 Financial Services,NBFC,RBI,NA,Live
+Centrum Broking Limited,Stock Broker,SEBI,NA,Live
+Chinmay Finlease Limited (Lenditt),NBFC,RBI,NA,Live
+Conatus Finserve Private Limited,NBFC,RBI,NA,Live
+Credit Saison,NBFC,RBI,NA,Live
+Credit Wise Capital,NBFC,RBI,NA,Live
+Godrej Housing Finance,HFC,RBI,NA,Evaluating
+DMI Finance Private Limited,NBFC,RBI,NA,Live
+EarlySalary Services Private Limited,NBFC,RBI,NA,Live
+Eduvanz Financing Private Limited,NBFC,RBI,NA,Live
+Eight Finance Private Limited,NBFC,RBI,NA,Live
+Ekagrata Finance Private Limited,NBFC,RBI,NA,Live
+Epimoney Private Limited (Flexiloans),NBFC,RBI,NA,Live
+Fairassets Technologies India Private Limited,NBFC-P2P,RBI,NA,Live
+Finnable Credit Private Limited,NBFC,RBI,NA,Live
+SMFG Indian Credit Company Limited (formerly Fullerton India Credit Co. Ltd),NBFC,RBI,NA,Live
+Girnar Capital Private Limited,NBFC,RBI,NA,Live
+Glaze Barter Private Limited,NBFC,RBI,NA,Testing
+Gromor Finance Private Limited,NBFC,RBI,NA,Live
+Harvinder Finance Company Private Limited (gmoney.loans),NBFC,RBI,NA,Live
+HDB Financial Services Limited,NBFC,RBI,NA,Live
+HDFC Credila Financial Services Limited,NBFC,RBI,NA,In-Development
+Hero fincorp Limited,NBFC,RBI,NA,Live
+Home Credit India Finance Private Limited,NBFC,RBI,NA,Live
+Piramal Capital & Housing Finance Limited,HFC,RBI,NA,Live
+Hytone Holdings Private Limited,NBFC,RBI,NA,Live
+i-Loan Credit Products Private Limited,NBFC,RBI,NA,Live
+IIFL (India Infoline Finance),NBFC,RBI,NA,Live
+Incred Financial Services Limited,NBFC,RBI,NA,Live
+CreditMantri Finserve Private Limited,Corporate Agent,IRDAI,NA,Testing
+Innofin Solutions Private Limited (LendenClub),NBFC-P2P,RBI,NA,Live
+Inventure Finance Pvt Ltd,NBFC,RBI,NA,In-Development
+K. M. Global Credit Private Limited (Creditfair),NBFC,RBI,NA,Live
+Krazybee Service Private Limited,NBFC,RBI,NA,Live
+Kudos Finance & Investments Private Limited,NBFC,RBI,NA,Live
+L&T Finance Limited,NBFC,RBI,NA,Live
+Lendingkart Finance Limited,NBFC,RBI,NA,Live
+LivFin India Private Limited,NBFC,RBI,NA,Live
+LoanTap Credit Products Private Limited,NBFC,RBI,NA,Live
+Lord Fincap Ltd,NBFC,RBI,NA,Live
+Mamta Projects Private Limited (arthmate),NBFC,RBI,NA,Live
+Manappuram Finance Limited,NBFC,RBI,NA,Live
+MAS Financial Services Limited,NBFC,RBI,NA,Live
+Mintifi Finserve Private Limited,NBFC,RBI,NA,Live
+mPokket Financial Services Pvt Ltd.,NBFC,RBI,NA,Live
+Muthoot Finance Limited,NBFC,RBI,NA,Live
+MyLoanCare Ventures Private Limited (Moneywide),NBFC,RBI,NA,Live
+Nahar Credits Private Limited,NBFC,RBI,NA,In-Development
+Navi Finserv Private Limited,NBFC,RBI,NA,Live
+NDX P2P Private Limited (LiquiLoans),NBFC-P2P,RBI,NA,Live
+NeoGrowth Credit,NBFC,RBI,NA,Live
+Gujarat State Cooperative Bank,Co-operative Banks,RBI,Evaluating,Evaluating
+Origa Lease Finance Private Limited,NBFC,RBI,NA,Live
+Oxyzo Financial Services,NBFC,RBI,NA,Live
+HDFC ERGO General Insurance Co.Ltd.,Private Sector Non Life,IRDAI,Live,Live
+Jio Payments Bank,Payments Banks,RBI,In-Development,In-Development
+One MobiKwik Systems Limited,PPI,RBI,NA,Testing
+India Post Payments Bank,Payments Banks,RBI,Evaluating,Evaluating
+City Union Bank,Private Sector Bank,RBI,Live,Live
+Jana Small Finance Bank,Small Finance Bank,RBI,Evaluating,Evaluating
+IDBI Bank,Private Sector Bank,RBI,Live,Live
+Kerala State Cooperative Bank,Co-operative Banks,RBI,Evaluating,Evaluating
+South Indian Bank,Private Sector Bank,RBI,Live,Live
+Bandhan Life Insurance (Aegon Life Insurance),Private Sector Life,IRDAI,Live,Live
+Bajaj Allianz General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Bajaj Allianz Life Insurance,Private Sector Life,IRDAI,Live,Live
+Banksathi Technologies And Insurance Corporate Agency Private Limited,Corporate Agent,IRDAI,NA,Testing
+Edelweiss Tokio Life Insurance,Private Sector Life,IRDAI,Live,Live
+Future Generali India Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Madhya Pradesh Rajya Sahakari Bank Maryadit,Co-operative Banks,RBI,Evaluating,Evaluating
+HDFC Life Insurance,Private Sector Life,IRDAI,Live,Live
+ICICI LOMBARD General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+ICICI Prudential Life Insurance,Private Sector Life,IRDAI,Live,Live
+India First Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Kotak Mahindra Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Magma HDI General Insurance,Private Sector Non LIfe,IRDAI,Live,Live
+Maharashtra State Cooperative Bank,Co-operative Banks,RBI,Evaluating,Evaluating
+Max Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+PNB Metlife India Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Dezerv Investments Private Limited,Portfolio Manager,SEBI,NA,Live
+Meghalaya Cooperative Apex Bank Ltd,Co-operative Banks,RBI,Evaluating,Evaluating
+Epifi Wealth Private Limited,RIAs,SEBI,NA,Live
+Equirus Wealth Private Limited,Stock Broker,SEBI,NA,Live
+Finurja India Pvt Ltd,RIAs,SEBI,NA,Testing
+Finvasia Securities Private Limited,Stock Broker,SEBI,NA,Live
+Finzoom Investment Advisors Private Limited (INDMoney),RIAs,SEBI,NA,Live
+Finteller Advisors Private Limited (GoalTeller),RIAs,SEBI,NA,Live
+Groww Invest Tech Private Limited (Nextbillion Technology Private Limited),Stock Broker,SEBI,NA,Live
+ICICI Securities Limited,Stock Broker,SEBI,NA,Live
+Inditrade Capital Limited,Stock Broker,SEBI,NA,Testing
+Kairos Capital Private Limited,RIAs,SEBI,NA,Testing
+Karat Capital Advisors Private Limited,RIAs,SEBI,NA,Live-enabled
+KFin Technologies Limited (Mutual Fund),RTA,SEBI,NA,Testing
+Kredent Infoedge Private Limited,Research Analyst,SEBI,NA,Live
+Mobikwik Investment Advisors,RIAs,SEBI,NA,Live
+Andhra Pradesh Grameena Vikas Bank,RRB,RBI,Live,Live
+Andhra Pragathi Grameena Bank,RRB,RBI,Live,Live
+Northern Arc Capital Limited,NBFC,RBI,NA,Live
+Karnataka Gramin Bank,RRB,RBI,Live,Live
+Karnataka Vikas Gramin Bank,RRB,RBI,Live,Live
+Neo Opportunities Fund Trust,AIF,SEBI,NA,Live
+NSDL,Depository,SEBI,Live,In-Development
+Poonawalla Fincorp Limited,NBFC,RBI,NA,Live
+Prathama UP Gramin Bank,RRB,RBI,Live,Live-enabled
+Fincare Small Finance Bank,Small Finance Bank,RBI,Live,Live
+Punjab State Cooperative Bank,Co-operative Banks,RBI,Evaluating,Evaluating
+RBL Bank Limited,Private Sector Bank,RBI,Live,Live
+Nu Investors Technologies Private Limited,Stock Broker,SEBI,NA,Live
+Paisalo Digital Limited,NBFC,RBI,NA,Live
+Payme India Financial Services Private Limited,NBFC,RBI,NA,Live
+PayU Finance India Private Limited,NBFC,RBI,NA,Live
+Protean eGov Technologies Limited (National Pension Scheme),CRA,PFRDA,Live,Evaluating
+Reliance General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Protium Finance Limited (formerly Growth Source),NBFC,RBI,NA,Live
+Kerala Gramin Bank,RRB,RBI,Live,Live
+Policybazaar Insurance Brokers Pvt Ltd,Insurance Brokers,IRDAI,NA,Live
+Quadrillion Finance Private Limited (Slice),NBFC,RBI,NA,Live
+Riviera Investors Private Limited (Indifi),NBFC,RBI,NA,Live
+Rpn Fintralease And Securities,NBFC,RBI,NA,Live
+Maharashtra Gramin Bank,RRB,RBI,Live,Live
+O3 Bhuvi Advisors Private Limited,RIAs,SEBI,NA,Live
+Ruptok Capital Private Limited,NBFC,RBI,NA,Live
+Sai Roshni Capital Private Limited (EZFINANZ),NBFC,RBI,NA,Live
+Salora Capital Limited (Dhanrashi),NBFC,RBI,NA,Live
+Sampathi Credits Private Limited (Friendloan),NBFC,RBI,NA,Live
+Reliance Nippon Life Insurance Company Limited,Private Sector Life,IRDAI,Evaluating,Evaluating
+Paschim Banga Gramin Bank,RRB,RBI,Live,Live
+Paisabazaar,RIAs,SEBI,NA,Live
+Sampati Securities Limited (creditt),NBFC,RBI,NA,Live
+Sarvagram Fincare Private Limited,NBFC,RBI,NA,Live
+Seeds Fincap Private Limited,NBFC,RBI,NA,Live
+Shubharambh Capital Finance Private Limited,NBFC,RBI,NA,Testing
+Si Creva Capital Services Private Limited (Kissht),NBFC,RBI,NA,Live
+Snapmint Financial Services Private Limited,NBFC,RBI,NA,Live
+Roha Housing Finance Private Limited,HFC,RBI,NA,Live
+Parag Parikh Financial Advisory Services Limited,Portfolio Manager,SEBI,NA,Testing
+Speel Finance Company Private Limited (Pocketly),NBFC,RBI,NA,Live
+Prabhudas Lilladher Private Limited,Stock Broker,SEBI,NA,Testing
+PrimeInvestor Financial Research Private Limited,Research Analyst,SEBI,NA,Testing
+RKSV Securities India Pvt Ltd (Upstox),Stock Broker,SEBI,NA,Live
+Stride One Capital Limited,NBFC,RBI,NA,Live
+Shriram Housing Finance Limited,HFC,RBI,NA,Live
+SBM Bank India,Foreign Bank,RBI,Evaluating,Evaluating
+Dreampurse Technologies Private Limited,PPI,RBI,NA,Live
+Shriram Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Standard Chartered Bank,Foreign Bank,RBI,Live,Evaluating
+SBI Life Insurance Company Limited,Private Sector Life,IRDAI,Live,Live
+Swara Fincare Limited,NBFC,RBI,NA,Live
+Tapstart Capital Private Limited,NBFC,RBI,NA,Live
+Tata Capital Limited,NBFC,RBI,NA,Live
+Puduvai Bharathiar Grama Bank,RRB,RBI,Live,Live
+Saptagiri Grameena Bank,RRB,RBI,Live,Live
+Mynd Solutions Private Limited (M1xchange),TReDS,RBI,NA,Live
+TrillionLoans Fintech Private Limited,NBFC,RBI,NA,Live
+Tata Capital Housing Finance Ltd.,HFC,RBI,NA,Live
+Star Union Daichi Life Insurance,Private Sector Life,IRDAI,Live,Live
+Rudra Share and Stock Brokers Limited,Stock Broker,SEBI,NA,Live
+True Credits Private Limited (True Balance),NBFC,RBI,NA,Live
+TVS Credit Services Limited,NBFC,RBI,NA,Live
+Vastu Housing Finance Corporation Limited,HFC,RBI,NA,Live
+U GRO Capital,NBFC,RBI,NA,Live
+Scripbox,RIAs,SEBI,NA,In-Development
+Receivables Exchange of India Limited (RXIL),TReDS,RBI,NA,Live
+Sundaram Finance Limited,NBFC,RBI,NA,Evaluating
+Upmove Capital Pvt Ltd,NBFC,RBI,NA,Live
+Simply Grow Technologies,RIAs,SEBI,NA,In-Development
+Vaibhav Vyapaar Private Limited,NBFC,RBI,NA,Live
+Vastu Finserve India Private Limited,NBFC,RBI,NA,Live
+Spenny Fintech Private Limited,Stock Broker,SEBI,NA,Live
+Venus Portfolio and Finance Private Limited,NBFC,RBI,NA,Testing
+Suryoday Small Finance Bank Limited,Small Finance Bank,RBI,Live,Live
+TATA AIA Life Insurance,Private Sector Life,IRDAI,Live,Live
+Tata AIG General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Visionary Financepeer Private Limited,NBFC-P2P,RBI,NA,Live
+Vistaar Financial Services Private Limited,NBFC,RBI,NA,Live
+Muthoot Forex Limited,AD-II,RBI,NA,Live
+Vridhi Finserv Home Finance Limited,HFC,RBI,NA,Live
+Wonder Home Finance Limited,HFC,RBI,NA,Live
+Whizdm Finance Private Limited,NBFC,RBI,NA,Live
+Goods and Services Tax Network,GST,DoR,Live,Evaluating
+Torus Financial Markets Private Limited,Stock Broker,SEBI,NA,Live
+Wortgage Finance Pvt,NBFC,RBI,NA,Live
+Tamil Nadu Grama Bank,RRB,RBI,Live,Live
+White Oak Capital Management,RIAs,SEBI,NA,In-Development
+Stockal Securities Pvt. Ltd.,Stock Broker,SEBI,NA,Testing
+Neotec Insurance Brokers Ltd,Insurance Brokers,IRDAI,NA,Testing
+Cholamandalam Securities Limited,Research Analyst,SEBI,NA,Testing
+Ganesh Ganga Investment Private Limited,NBFC,RBI,NA,Live
+Prudent Corporate Advisory Services Limited,Stock Broker,SEBI,NA,Live
+Cholamandalam Investment and Finance Company Limited,NBFC,RBI,NA,Live
+Zerodha broking limited,Stock Broker,SEBI,NA,Live-enabled
+Agriwise Finserv Limited,NBFC,RBI,NA,Live
+Saurashtra Gramin Bank,RRB,RBI,Live,Live
+Telangana Grameena Bank,RRB,RBI,Live,Live
+KFin Technologies Limited (NPS),CRA,PFRDA,Live,Testing
+CAMS CRA,CRA,PFRDA,Live,Evaluating
+Chhattisgarh Rajya Gramin Bank,RRB,RBI,Live,Live
+The New India Assurance Company Limited,Public Sector Non Life,IRDAI,Live,Live
+Fee Only Investment Advisers LLP,RIAs,SEBI,NA,Live
+Oyepaisa Consulting Private Limited,RIAs,SEBI,NA,Live
+Monexo Fintech Private Limited,NBFC-P2P,RBI,NA,Live
+Faith Financial Private Limited,NBFC,RBI,NA,Live
+Grihum Housing Finance Limited( formerly Poonawalla Housing Finance Limited),HFC,RBI,NA,Live
+Nagaland Rural Bank,RRB,RBI,Live,Live
+Meghalaya Rural Bank,RRB,RBI,Live,Live
+Madhyanchal Gramin Bank,RRB,RBI,Live,Live
+Uttarakhand Gramin Bank,RRB,RBI,Live,Live
+Arunachal Pradesh Rural Bank,RRB,RBI,Live,Live
+Mizoram Rural Bank,RRB,RBI,Live,Live
+Ellaquai Dehati Bank,RRB,RBI,Live,Live
+Akara Capital Advisors Private Limited,NBFC,RBI,NA,Live
+Hinduja Leyland Finance Limited,NBFC,RBI,NA,Live
+Bank of America,Foreign Bank,RBI,Evaluating,Testing
+Capital India Home Loans Limited,HFC,RBI,NA,Live
+Mahindra & Mahindra Financial Services Limited,NBFC-D,RBI,Live,Live
+Godrej Finance Limited,NBFC,RBI,NA,Live
+Jharkhand Rajya Gramin Bank,RRB,RBI,Live,Live
+Rajasthan Marudhara Gramin Bank,RRB,RBI,Live,Live
+Electronica Finance Limited,NBFC,RBI,NA,Live
+Vivifi India Finance (P) Ltd,NBFC,RBI,NA,Live
+Parfait Finance & Investments Private Limited,NBFC,RBI,NA,Live
+F MEC International Financial Services Ltd,NBFC,RBI,NA,Live
+Kaleidofin Capital Private Limited,NBFC,RBI,NA,Testing
+Singularity Creditworld Private Limited,NBFC,RBI,NA,Live
+SK Finance Limited,NBFC,RBI,NA,Live
+Madhya Pradesh Gramin Bank,RRB,RBI,Live,Live
+Monk Capital Private Limited (Fee Monk),NBFC,RBI,NA,Live
+Tata Securities Ltd.,Stock Broker,SEBI,NA,Evaluating
+Telangana State Cooperative Bank,Co-operative Banks,RBI,Evaluating,Testing
+Utkarsh Small Finance Bank,Small Finance Bank,RBI,Evaluating,Evaluating
+Girnar Insurance Brokers Private Limited (Insurance dekho),Insurance Brokers,IRDAI,NA,Live
+Geojit Financial Services Limited,Stock Broker,SEBI,NA,Live
+Aye Finance Private Limited,NBFC,RBI,NA,Live
+Fincfriends Private Limited,NBFC,RBI,NA,Live
+PNB Housing Finance Limited,HFC,RBI,Live,Live
+Vidharba Konkan Gramin Bank,RRB,RBI,Live,Live
+Aryavart Bank,RRB,RBI,Live,Live
+SMC Global Securities Limited,Research Analyst,SEBI,NA,Live
+Ummeed Housing Finance Private Limited,HFC,RBI,NA,Live
+1 Finance Private Limited,RIAs,SEBI,NA,Live
+Lok Suvidha Finance Limited,NBFC,RBI,NA,Live
+Indian School Finance Company Private Limited,NBFC,RBI,NA,Live
+Utkal Grameen Bank,RRB,RBI,Live,Live
+Focus Capital Services Limited,NBFC,RBI,NA,Live
+Reliance Retail Finance Limited,NBFC,RBI,NA,Live
+Bajaj Housing Finance Limited,NBFC,RBI,NA,Live
+Astha Credit & Securities Private limited (Rupeezy),Stock Broker,SEBI,NA,Live
+SBI Cards and Payment Services Limited,NBFC,RBI,NA,Live
+Credright Finance Private Ltd,NBFC,RBI,NA,Live
+R.K. Bansal Finance Limited,NBFC,RBI,NA,Live
+Helpage Finlease Private Limited,NBFC,RBI,NA,Live
+Aadhar Housing Finance Limited,HFC,RBI,NA,Live
+Svatantra Micro Housing Finance Corporation Limited,HFC,RBI,NA,Live
+Financial Hospital Advisor,RIAs,SEBI,NA,Live
+Samco Securities Limited,Stock Broker,SEBI,NA,Live
+U.Y. Fincorp Limited,NBFC,RBI,NA,Testing
+Go Digit General Insurance Limited,Private Sector Non Life,IRDAI,Testing,Live
+ACKO Life Insurance Limited,Private Sector Life,IRDAI,Live,Live
+United India Insurance Company Limited,Public Sector Non Life,IRDAI,Live,Live
+National Bank for Agriculture and Rural Development,Financial Institution,RBI,NA,Live
+Adani Capital Private Limited,NBFC,RBI,NA,Live
+Aryadhan Financial Solutions Private Limited,NBFC,RBI,NA,Live
+Red Fort Capital Finance Company Private Limited,NBFC,RBI,NA,Live
+Market Pulse Securities Private Limited,Stock Broker,SEBI,NA,Live
+Decimus Financial Limited,NBFC,RBI,NA,Live
+Jama Wealth Asset Management Private Limited,Portfolio Manager,SEBI,NA,Live
+Life Insurance Corporation of India (LIC),Public Sector Life,IRDAI,Testing,Live
+Ganesh Leasfin Private Limited,NBFC,RBI,NA,Live
+Trimurti Fincap Private Limited,NBFC,RBI,NA,Live
+Narottamka Mercantile Private Limited,NBFC,RBI,NA,Live-enabled
+Gyandhan Financial Service Private Limited,NBFC,RBI,NA,Live
+Aviva Life Insurance Company India Limited,Private Sector LIfe,IRDAI,Live,Live
+Pramerica Life Insurance Company Limited,Private Sector LIfe,IRDAI,Live,Live
+Shriram Finance Limited,NBFC,RBI,NA,Live
+Goldline Finance Private Limited,NBFC,RBI,NA,Live
+Clix Capital Services Private Limited,NBFC,RBI,NA,Live
+DS Integrated Finsec Private Limited,NBFC,RBI,NA,Testing
+Fyers Securities Private Limited,Stock Broker,SEBI,NA,Live
+Bazaari Global Finance Limited,NBFC,RBI,NA,Live
+Elixir Equities Private Limited,Stock Broker,SEBI,NA,Testing
+Svobodha Infinity Investment Advisors Private Limited,Portfolio Manager,SEBI,NA,Live
+Thazhayil Finance Private Limited,NBFC,RBI,NA,Live
+Accretive Cleantech Finance Private Limited,NBFC,RBI,NA,Testing
+Arthashastra Epaylater Financial Private Limited,NBFC,RBI,NA,Live
+Moneyplus Financial Services Private Limited,NBFC,RBI,NA,Live
+Ageas Federal Life Insurance Company Limited,Private Sector LIfe,IRDAI,Live,Live
+SATYA Micro Housing Finance Private Limited,HFC,RBI,NA,Live
+J&K Grameen Bank,RRB,RBI,Live,Live
+HDFC Asset Management Company Limited,AMC,SEBI,Live,Live-enabled
+HSBC Asset Management (India) Private Limited,AMC,SEBI,Live,Testing
+ICICI Prudential Asset Management Company Ltd,AMC,SEBI,Live,Testing
+Kotak Mahindra Asset Management Company Limited,AMC,SEBI,Live,Live
+TATA Asset Management Limited,AMC,SEBI,Live,Evaluating
+PPFAS Asset Management Private Limited,AMC,SEBI,Live,Testing
+White Oak Capital Asset Management Limited,AMC,SEBI,Live,Testing
+Aditya Birla Sunlife AMC Limited,AMC,SEBI,Live,Testing
+Shriram Asset Management Company Limited,AMC,SEBI,Live,Evaluating
+Bandhan Asset Management Company Limited,AMC,SEBI,Live,Testing
+Mool Capital Private Limited,Research Analyst,SEBI,NA,Live
+DSP Asset Managers,AMC,SEBI,Live,Live
+Navi Asset Management Company,AMC,SEBI,Live,Testing
+Moneylicious Securities Private Limited (Dhan),Stock Broker,SEBI,NA,Live
+Safejar Advisers Private Limited,RIAs,SEBI,NA,Live
+SBI General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Bajaj Finserv Mutual Fund,AMC,SEBI,Live,Live
+PRP Professional Edge Associates Private Limited,RIAs,SEBI,NA,Live
+SBI Funds Management Limited,AMC,SEBI,Live,Testing
+Raheja QBE General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Atmos Finance Private Limited,NBFC,RBI,NA,Live
+HDFC Securities Limited,RIAs,SEBI,NA,Evaluating
+Oricred Finserv Private Limited,NBFC,RBI,NA,Testing
+APAC Financial Services Private Limited,NBFC,RBI,NA,Live
+Kinara Capital Private Limited,NBFC,RBI,NA,Live
+Great Meera Finlease Private Limited,NBFC,RBI,NA,Live
+Capital India Finance Limited,NBFC,RBI,NA,Live
+Odisha Gramya Bank,RRB,RBI,Live,Live
+Care Health Insurance Limited (formerly Religare Health),Health Insurer,IRDAI,Live,Live
+Rinkpi Finance & Consultants Pvt Ltd,NBFC,RBI,NA,Live
+Wayne Secure Digital RTA Private Limited,RTA,SEBI,Evaluating,Testing
+T J Financial Consultancy & Investments Private Limited,NBFC,RBI,NA,Testing
+Lark Trading and Finance limited,NBFC,RBI,NA,Live
+STK Credit Private Limited,NBFC,RBI,NA,Live
+Techfino Capital Private Limited,NBFC,RBI,NA,Live
+Mahindra Rural Housing Finance Limited,HFC,RBI,NA,Testing
+Franklin Templeton Asset Management (India) Ltd.,AMC,SEBI,Live,Evaluating
+360 One Asset Managemet Ltd,AMC,SEBI,Live,Evaluating
+Union Asset Management Company Private Ltd,AMC,SEBI,Live,Evaluating
+Mahindra Manulife Investment Management Company Pvt Ltd,AMC,SEBI,Live,In-Development
+Aarambh Securities Limited,NBFC,RBI,NA,Live
+Save Housing Finance Limited,HFC,RBI,NA,Live
+Goodwill Wealth Management Private Limited,Stock Broker,SEBI,NA,Live
+Muthoot Capital Services Limited,NBFC,RBI,NA,Live
+Tata Motors Finance Solutions Limited,NBFC,RBI,NA,Live
+Unifinz Capital India Limited,NBFC,RBI,NA,Live
+Ahmedabad District Central Co-Operative Bank,Co-operative Banks,RBI,Testing,Testing
+Knab Finance Advisors Private Limited,NBFC,RBI,NA,Live
+Rajarshi Shahu Bank,Co-operative Banks,RBI,Testing,Testing
+Assam Gramin Vikash Bank,RRB,RBI,Live,Live-enabled
+Tripura Gramin Bank,RRB,RBI,Live,Live-enabled
+Bangiya Gramin Vikash Bank,RRB,RBI,Live,Live-enabled
+Dakshin Bihar Gramin Bank,RRB,RBI,Live,Live-enabled
+Himachal Pradesh Gramin Bank,RRB,RBI,Live,Live-enabled
+Manipur Rural Bank,RRB,RBI,Live,Live
+Punjab Gramin Bank,RRB,RBI,Live,Live-enabled
+Sarva Haryana Gramin Bank,RRB,RBI,Live,Live-enabled
+Star Health And Allied Insurance Company Limited,Health Insurer,IRDAI,Live,Live
+Shubham Housing Development Finance Company Limited,HFC,RBI,NA,Live
+Groww Creditserv Technology Private Limited,NBFC,RBI,NA,Live
+Orrish Finance Private Limited,NBFC,RBI,NA,Live
+Cholamandalam MS General Insurance Company Limited,Private Sector Non Life,IRDAI,Evaluating,Live
+Profectus Capital Private Limited,NBFC,RBI,NA,Testing
+Ventugrow Consultants Private Limited,RIAs,SEBI,NA,Live
+Zebu Share and Wealth Managements Private Limited,Stock Broker,SEBI,NA,Live
+Baroda UP Bank,RRB,RBI,Live,Live
+Baroda Rajasthan Kshetriya Gramin Bank,RRB,RBI,Live,Live
+Shreem Datatech Solutions Private Limited,RIAs,SEBI,NA,Live
+Jio Finance Limited,NBFC,RBI,NA,Live
+NS Wealth Solution Private Limited,RIAs,SEBI,NA,Live
+Respo Financial Capital Private Limited,NBFC,RBI,NA,Live
+Status Capitals Private Limited,NBFC,RBI,NA,Live
+Baroda BNP Paribas Mutual Fund,AMC,SEBI,Live,Evaluating
+BOI AXA Mutual Fund,AMC,SEBI,Live,Evaluating
+Canara Robeco Mutual Fund,AMC,SEBI,Live,Evaluating
+Edelweiss Mutual Fund,AMC,SEBI,Live,Evaluating
+NJ Mutual Fund,AMC,SEBI,Live,Evaluating
+Groww Mutual Fund,AMC,SEBI,Live,Live
+INVESCO Mutual Fund,AMC,SEBI,Live,Evaluating
+JM Mutual Fund,AMC,SEBI,Live,Evaluating
+LIC Mutual Fund,AMC,SEBI,Live,Evaluating
+Mirae Asset Mutual Fund,AMC,SEBI,Live,Evaluating
+Motilal Oswal Mutual Fund,AMC,SEBI,Live,Evaluating
+Nippon India Mutual Fund,AMC,SEBI,Live,Evaluating
+PGIM India Mutual Fund,AMC,SEBI,Live,Evaluating
+SAMCO MUTUAL FUND,AMC,SEBI,Live,Evaluating
+Quant Mutual Fund,AMC,SEBI,Live,Evaluating
+Quantum Mutual Fund,AMC,SEBI,Live,Evaluating
+Trust Mutual Fund,AMC,SEBI,Live,Evaluating
+Taurus Mutual Fund,AMC,SEBI,Live,Evaluating
+UTI Mutual Fund,AMC,SEBI,Live,Evaluating
+ITI Mutual Fund,AMC,SEBI,Live,Evaluating
+Sundaram Mutual Fund,AMC,SEBI,Live,Live
+Seven Salts Financial Services Private Limited,Stock Broker,SEBI,NA,Live
+Vreedhi Financial Services Private Limited,NBFC,RBI,NA,Live
+ManipalCigna Health Insurance Company Limited,Health Insurer,IRDAI,Live,Live
+Shriram General Insurance,Private Sector Non Life,IRDAI,Live,Live
+Universal Sompo General Insurance Company Limited,Private Sector Non Life,IRDAI,Live,Live
+Marketwolf Securities Private Limited,Stock Broker,SEBI,NA,Live
+Dilzer Consulting Pvt Ltd,RIAs,SEBI,NA,Live
+Aditya Govindaraj,RIAs,SEBI,NA,Live
+Aptus Value Housing Finance India Limited,HFC,RBI,NA,Live
+Hutatma Sahakari Bank Ltd,Co-operative Banks,RBI,Live,Live
+Axis Mutual Fund,AMC,SEBI,Live,Evaluating
+Fedbank Financial Services Ltd,NBFC,RBI,NA,Testing
+Muthoot FinCorp Limited,NBFC,RBI,NA,Live
+IIFL Samasta Finance Limited (Formerly Samasta Microfinance Limited),NBFC,RBI,NA,Live
+Zurich Kotak General Insurance Company (India) Limited,Private Sector Non Life,IRDAI,Live,Live
+Aadhar India Finvest Limited,NBFC,RBI,NA,Live
+Toyota Financial Services India Limited,NBFC,RBI,NA,Live
+Shri Ram Finance Corporation Private Limited,NBFC,RBI,NA,Testing
+Finnovate Financial Services Private Limited,RIAs,SEBI,NA,Testing
+Bharati Axa Life Insurance Company,Private Sector LIfe,IRDAI,Live,Live
+Transwarranty Finance Limited,NBFC,RBI,NA,Live
+Manikaran Credit & Leasing Company Private Limited,NBFC,RBI,NA,Live
+ICICI Home Finance Company Limited,HFC,RBI,NA,Testing
+Anand Rathi Share and Stock Brokers Limited,Stock Broker,SEBI,NA,Live
+Waterfield Financial And Investment Advisors Private Limited,RIAs,SEBI,NA,Live
+Niva Bupa Health Insurance Company Limited,Health Insurer,IRDAI,Live,Live
+Emkay Consultants Ltd,NBFC,RBI,NA,Live
+Chaitanya Godavari Grameena Bank,RRB,RBI,Live,Live
+Uttar Banga Kshetriya Gramin Bank,RRB,RBI,Live,Live
+Uttar Bihar Gramin Bank,RRB,RBI,Live,Live
+Muthoot Homefin (India) Limited,HFC,RBI,NA,Live
+FTcash Finance Private Limited,NBFC,RBI,NA,Live
+Rajeev Trading and Holdings Private Limited,NBFC,RBI,NA,Live
+Prayaan Capital Private Limited,NBFC,RBI,NA,Live
+Marg Techno - Projects Limited,NBFC,RBI,NA,Live
+Keertana Finserv Private Limited,NBFC,RBI,NA,Live
+Muthoot Vehicle & Asset Finance Ltd. (Formerly Known as Muthoot Leasing & Finance Ltd.),NBFC-D,RBI,Live,Live
+Fedbank Financial Services Limited,NBFC,RBI,NA,Testing
+National Insurance Company Limited,Private Sector Non life,IRDAI,Testing,Live
+Choice Equity Broking Private Limited,Stock Broker,SEBI,NA,Live
+The Thane District Central Co-Op Bank Ltd,Co-operative Banks,RBI,Testing,Testing
+Gosree Finance Limited,NBFC,RBI,NA,Live
+Arka Fincap Limited (Formerly Known as Kirloskar Capital Limited),NBFC,RBI,NA,Live
+Liberty General Insurance Limited,Private Sector Non life,IRDAI,Live,Evaluating
+Motilal Oswal Financial Services Limited,Stock Broker,SEBI,NA,Live
+Independent Advisors Private Limited,RIAs,SEBI,NA,Live
+Arman Financial Services Limited,NBFC,RBI,NA,Live
+Kotak Securities,Stock Broker,SEBI,NA,Live
+Lunchbrake Classic Private Limited,RIAs,SEBI,NA,Live
+Muthoot Money Pvt. Ltd. (Formerly Known as Moneylyne Financing and Trading (Pvt) Ltd),NBFC,RBI,NA,Live
+Mitrata Inclusive Financial Services,MFI,RBI,NA,Live
+Namra Finance Limited,MFI,RBI,NA,Testing
+Zuno General Insurance Limited,Private Sector Non life,IRDAI,Live,Live
+Unnayan Bharat Finance Corporation Private Limited,NBFC,RBI,NA,Live
+MS Fincap Private Limited,NBFC,RBI,NA,Live
+Aditya Birla Health Insurance,Health Insurer,IRDAI,Live,Live
+Future Generali India Insurance Company Limited,Private Sector Non life,IRDAI,Live,Live
+Asit C Mehta Investment Interrmediates Limited,Stock Broker,SEBI,NA,Live
+Moneywise Financial Services Private Limited,NBFC,RBI,NA,Live
+IFFCO TOKIO General Insurance Company Limited,Private Sector Non life,IRDAI,Live,Live-enabled
+Liquide Solutions Private Limited,Research Analyst,SEBI,NA,Testing
+Maitra Commodities Pvt Ltd,Stock Broker,SEBI,NA,Live
+Alankit Imagination Limited,Stock Broker,SEBI,NA,Live
+Vrinda Finlease Limited,NBFC,RBI,NA,Live
+Sigfyn Investment Advisors Private Limited,RIAs,SEBI,NA,Live
+Bharatage Innovations Private Limited (Genwise),RIAs,SEBI,NA,Live
+Finzoomers Services Private Limited,Corporate Agent,IRDAI,NA,Live-enabled
+Aditya Birla Company Digital Limited,Corporate Agent,IRDAI,NA,Live
+123 Capitals,Stock Broker,SEBI,NA,Live
+Truemind Investment Advisor Private Limited,Stock Broker,SEBI,NA,Live
+Vani Commercials Limited,NBFC,RBI,NA,Live
+Ashika Stock Broking Limited,Stock Broker,SEBI,NA,Live
+Butterfly Broking Private Limited,Stock Broker,SEBI,NA,Live
+Equal Identity Private Limited,RIAs,SEBI,NA,Live
+Moneycontrol.Dot Com India Limited,RIAs,SEBI,NA,Live
+Aeon Credit Service India Private Limited,NBFC,RBI,NA,Live
+Abhishek Kumar RIA (Sahaj Money),RIAs,SEBI,NA,Live
+Royal Sundaram General Insurance,Private Sector Non life,IRDAI,Live,Testing
+Cicago Commodities Private Limited,NBFC,RBI,NA,Live
+Turtlemint Insurance Broking Services Private Limited,Insurance Brokers,IRDAI,NA,Live
+Rokad App Private Limited,RIAs,SEBI,NA,Live
+NJ India Invest Private Limited,Stock Broker,SEBI,NA,Live
+Adani Housing Finance Private Limited,HFC,RBI,NA,Live
+D.S.Integrated Finsec Pvt Ltd,NBFC,RBI,NA,Live
+Credavenue Securities Private Limited,Stock Broker,SEBI,NA,Live
+Hero Housing Finance Limited,HFC,RBI,NA,Live
+Hinduja Housing Finance,HFC,RBI,NA,Live
+Mangu Venkata Narasinga Rao (Sampadha),Research Analyst,SEBI,NA,Live
+VDCAP Finserv Private Limited,NBFC,RBI,NA,Live
+Equentia Financial Service Private Limited,NBFC,RBI,NA,Live
+Share India Securities Limited,Stock Broker,SEBI,NA,Live
+Arihant Capital Markets Limited,Stock Broker,SEBI,NA,Live
+Acko General Insurance Limited,Health Insurer,IRDAI,Live,Testing
+Star Housing Finance,HFC,RBI,NA,Live
+Bindawala Banijya Limited,NBFC,RBI,NA,Live
+Superline Fininvest Private Limited,NBFC,RBI,NA,Testing
+Navin Bros Private Limited,NBFC,RBI,NA,Live
+JM Financial Services Limited,Stock Broker,SEBI,NA,Live
+Devmuni Leasing & Finance Limited,NBFC,RBI,NA,Live
+Narainsons Investments Finance & Consultancy Pvt Ltd,NBFC,RBI,NA,Live
+Pioneer Client Associates Pvt Ltd,RIAs,SEBI,NA,Live
+IFL Housing Finance Limited,HFC,RBI,NA,Live
+Innovage Investment Advisers Private Limited,RIAs,SEBI,NA,Live
+Ventura Securities Limited,Stock Broker,SEBI,NA,Live
+Hytone Merchants Pvt Ltd,NBFC,RBI,NA,Live
+Chillar Fintech Private Limited,Research Analyst,SEBI,NA,Live
+Equentia Financial Services,NBFC,RBI,NA,Live
+The Oriental Insurance Company Limited,Public Sector Non Life,IRDAI,Live,Testing
+Mirae Asset Capital Markets (India) Private Limited,Stock Broker,SEBI,NA,Live
+INDmoney Private Limited,Stock Broker,SEBI,NA,Live
+SMFG India Home Finance Company Limited (Formerly Fullerton India Home Finance Company Limited),HFC,RBI,NA,Live
+Bee Pee Jay Finance Limited,NBFC,RBI,NA,Live
+DMI Housing Finance,HFC,RBI,NA,Live
+Navia Markets Limited,Stock Broker,SEBI,NA,Live
+Fintree Finance Private Limited,NBFC,RBI,NA,Live
+Navi General Insurance Limited,Private Sector Non Life,IRDAI,Live,Evaluating
+Sonata Finance Private Limited,NBFC,RBI,NA,Live
+Nissan Renault Financial Services Services India Private Limited,NBFC,RBI,NA,Live
+Maliram Makharia Finstock Private Limited,Stock Broker,SEBI,NA,Live
+Manibhavnam Home Finance India Private Limited,HFC,RBI,NA,Live
+Anik Mitra,RIAs,SEBI,NA,Live-enabled
+Figital Technologies Private Limited,Corporate Agent,IRDAI,NA,Live
+Supermoney Advisors Private Limited,RIAs,SEBI,NA,Live
+Moneyboxx Finance Limited,NBFC,RBI,NA,Live
+Tradejini Financial Services Private Limited,Stock Broker,SEBI,NA,Live
+Microcurves Trading Private Limited,Stock Broker,SEBI,NA,Live
+Rajsi Infin Consultants Private Limited,NBFC,RBI,NA,Live
+Sky Commodities India Private Limited,Stock Broker,SEBI,NA,Live
+DB (International) Stock Brokers Limited,Stock Broker,SEBI,NA,Live
+Svatantra Microfin Private Limited,NBFC,RBI,NA,Live
+Aditya Birla Money Limited,Stock Broker,SEBI,NA,Live
+Fin2research Investment Advisor Private Limited,RIAs,SEBI,NA,Live
+Finwizard Technology Private Limited,Stock Broker,SEBI,NA,Live
+Kedia Capital Services Private Limited,Stock Broker,SEBI,NA,Live
+Prudeno Wealth Advisors Private Limited,RIAs,SEBI,NA,Live
+Navachetana Microfin Service Private Limited,MFI,RBI,NA,Live
+Finsharpe Private Limited,RIAs,SEBI,NA,Live
+HDFC Securities Limited,Stock Broker,SEBI,NA,Live
+Manappuram Home Finance Limited,HFC,RBI,NA,Live
+Swastika Investmart Limited,Stock Broker,SEBI,NA,Live
+Rupeek Capital Private Limited,NBFC,RBI,NA,Live
+Narendra Finance Company Private Limited,NBFC,RBI,NA,Live
+Moneywise Finvest Limited,Stock Broker,SEBI,NA,Live
+MAS Rural Housing & Mortgage Finance Limited,HFC,RBI,NA,Live
+Emerald Finance Limited,NBFC,RBI,NA,Live
+Flyhi Financial Services Limited,NBFC,RBI,NA,Live
+Fuji Global Finance Private Limited,NBFC,RBI,NA,Live
+Go Digit Life Insurance,Private Sector Life,IRDAI,Live,Live
+NCO Securities and Share Broking Private Limited,Stock Broker,SEBI,NA,Live
+Indiabulls Housing Finance Ltd,HFC,RBI,NA,Live
+Madhur Instalments Private Limited,NBFC,RBI,NA,Live
+Jio Insurance Broking Limited,Insurance Brokers,IRDAI,NA,Live
+FDPL Finance Private Limited,NBFC,RBI,NA,Live
+Namdev Finvest Private Limited,NBFC,RBI,NA,Live
+Dreamplug Advisory Solutions,RIAs,SEBI,NA,Live
+Paytm Money Limited,Stock Broker,SEBI,NA,Live
+Shepherd's Hill Capital Advisors,RIAs,SEBI,NA,Live
+International Money Matters Private Limited,RIAs,SEBI,NA,Live
+Edgro  Finance Private Limited,NBFC,RBI,NA,Live
+TRDEZ Investment private limited,Stock Broker,SEBI,NA,Live
+Baba Lease Investment Private Limited,NBFC,RBI,NA,Live
+Wealth First Portfolio Managers Limited,Stock Broker,SEBI,NA,Live
+RTF Financial Services Private Limited,NBFC,RBI,NA,Live-enabled
+Davinta Financial Services Private Limited,NBFC,RBI,NA,Live
+Svakarma Finance Private Limited,NBFC,RBI,NA,Live
+Hexawealth Financial Technologies Private Limited,RIAs,SEBI,NA,Live
+Girdhar Finlease private Limited,NBFC,RBI,NA,Live
+Finvasia Financial Services Private limited,NBFC,RBI,NA,Live
+Altum Credo Home Finance Private Limited,HFC,RBI,NA,Live
+Srifin Credit Private Limited,MFI,RBI,NA,Live
+Goyal Associates Limited,NBFC,RBI,NA,Live
+Monarch Networth Capital Limited,Stock Broker,SEBI,NA,Live
+Arthimpact Digital Loans Private Limited,NBFC,RBI,NA,Live
+Branch International Financial Services Private Limited,NBFC,RBI,NA,Live
+Lime Internet Private Limited (Wealthzi),RIAs,SEBI,NA,Live
+Mangalam Industrial Finance Limited,NBFC,RBI,NA,Live
+Kaabil Finance Private Limited,NBFC,RBI,NA,Live
+Nag Munagapati Wealth Advisors,RIAs,SEBI,NA,Live
+Pahal Financial Services Private Limited,MFI,RBI,NA,Live
+Ghalla Bhansali Stock Brokers private limited,Stock Broker,SEBI,NA,Live
+LIC Housing Finance Limited,HFC,RBI,NA,Live
+Ujjivan Small Finance Bank Limited,Small Finance Bank,RBI,Live,Live
+Qubit Investment Advisors Private Limited,RIAs,SEBI,NA,Live
+Surat People's Co-operative Bank Limited(SPCBL),Co-operative Banks,RBI,Evaluating,Live
+Akasa Finance Limited,NBFC,RBI,NA,Live-enabled
+Dhani Stocks Limited,Stock Broker,SEBI,NA,Live
+Wealthview Analytics Private Limited,Research Analyst,SEBI,NA,Live
+Aaritya Broking Private Limited,Stock Broker,SEBI,NA,Live
+Creditaccess Grameen Limited,MFI,RBI,NA,Live
+Phonepe Wealth Broking Private Limited,Stock Broker,SEBI,NA,Live
+Bobcard Limited,NBFC,RBI,NA,Live
+Rattanindia Finance Private Limited,NBFC,RBI,NA,Live
+Mahavira Finlease Limited,NBFC,RBI,NA,Live
+Blackbuck Finserve Private Limited,NBFC,RBI,NA,Live
+Almondz Global Securities Limited,Stock Broker,SEBI,NA,Live
+Care India Finvest Limited,NBFC,RBI,NA,Live
+Finfam Investment Advisors private Limited,RIAs,SEBI,NA,Live
+Nuvama Wealth And Investment Limited,Stock Broker,SEBI,NA,Live
+Kasar Credit And Capital Private Limited,NBFC,RBI,NA,Live
+FW Fintech Private Limited,RIAs,SEBI,NA,Live
+Varashakti Housing Finance,HFC,RBI,NA,Live
+CSC e-Governance Services India Limited,Corporate Agent,IRDAI,NA,Live
+MyFi Fintech Advisory Services Private Limited,RIAs,SEBI,NA,Live
+R Wadiwala Securities Private Limited,Stock Broker,SEBI,NA,Live
+Profitmart Securities Private Limited,Stock Broker,SEBI,NA,Live
+Zinc Financial Advisors Private Limited,RIAs,SEBI,NA,Live-enabled
+Exclusive Leasing and Finance Private Limited,NBFC,RBI,NA,Live
+Spa Investment Adviser Private Limited,RIAs,SEBI,NA,Live
+Sayyam Investments Private Limited,NBFC,RBI,NA,Live-enabled
+CRSP Capital Private Limited,NBFC,RBI,NA,Live
+IIFL Home Finance Limited,HFC,RBI,NA,Live
+Pee Dee Finvest Private Limited,NBFC,RBI,NA,Live-enabled
+Mitraz Financial Services Private Limited,RIAs,SEBI,NA,Live
+Multistrato Capital Advisors Private Limited,RIAs,SEBI,NA,Live
+Choice Finserv Private Limited,NBFC,RBI,NA,Live
+Windmill Capital Private Limited,Research Analyst,SEBI,NA,Live
+Indira Securities Private Limited,Stock Broker,SEBI,NA,Live
+Pocketful Fintech Capital Private Limited,Stock Broker,SEBI,NA,Live
+Varthana Finance Private Limited,NBFC,RBI,NA,Live
+ArimaLabs Private Limited,Corporate Agent,IRDAI,NA,Live
+IntelliRecommend Research Private Limited,Research Analyst,SEBI,NA,Live
+Propkar Securities Private Limited,NBFC,RBI,NA,Live
+Mukut Finvest properties Private Limited,NBFC,RBI,NA,Live
+Fortune Capital Services Private Limited,Stock Broker,SEBI,NA,Live
+Marquee Investment Managers,RIAs,SEBI,NA,Live
+Axis Securities Limited,Stock Broker,SEBI,NA,Live
+HDFC Securities Limited,Research Analyst,SEBI,NA,Live
+WealthylN Broking Private Limited,Stock Broker,SEBI,NA,Live
+Claycove23 Insurance Tech Private Limited,Corporate Agent,IRDAI,NA,Live
+Credent Global Finance Limited,NBFC,RBI,NA,Live
+Bhumi Fincap Private Limited,NBFC,RBI,NA,Live
+Kedia Capital Services Private Limited,RIAs,SEBI,NA,Live
+Nobias Analyst India Private Limited,RIAs,SEBI,NA,Live
+Dyota Solutions Private Limited,RIAs,SEBI,NA,Live
+Estee Advisors Private Limited,RIAs,SEBI,NA,Live
+Finuture Technologies Private Limited,RIAs,SEBI,NA,Live
+CreditAccess Life Insurance Limited,Private Sector Life,IRDAI,Live,Live
+Zed Leafin Private Limited,NBFC,RBI,NA,Live
+GrowXCD Finance Private Limited,NBFC,RBI,NA,Live
+Nipun Projects & Finance Private Limited,NBFC,RBI,NA,Live
+Super Growth Investments Private Limited,NBFC,RBI,NA,Live
+Oracle Marketing Private Limited,NBFC,RBI,NA,Live
+Aristo Securities Private Limited (Revfin Capital),NBFC,RBI,NA,Live
+SCIL Capital India Limited,NBFC,RBI,NA,Live
+AETRAM Trades Private Limited,Stock Broker,SEBI,NA,Live
+Famy Finance Private Limited,NBFC,RBI,NA,Live
+Univest Stock Broking Private Limited,Stock Broker,SEBI,NA,Live
+True Beacon Investment Advisors LLP,Portfolio Manager,SEBI,NA,Live
+Stable Broking Private Limited,Stock Broker,SEBI,NA,Testing
+Saraswat Co-operative Bank Limited,Co-operative Banks,RBI,Live,Live-enabled
+U-Klickkit Enterprises Private Limited,RIAs,SEBI,NA,Live
+IIFL Capital Services Limited,Stock Broker,SEBI,NA,Live
+Light Micro Finance Private Limited,MFI,RBI,NA,Live
+Mojo Markets Private Limited,RIAs,SEBI,NA,Live
+Moham Capital Private Limited,NBFC,RBI,NA,Live
+Dhanvikas Fiscal Services Private Limited(Solfin),NBFC,RBI,NA,Live
+Navi Investment Advisors Private Limited,RIAs,SEBI,NA,Live
+AUM Securities Private Limited,Stock Broker,SEBI,NA,Live
+Setia Auto Finance Private Limited,NBFC,RBI,NA,Live
+Vivriti Vihaan Trust,AIF,SEBI,NA,Live-enabled
+Axis Capital Limited,Research Analyst,SEBI,NA,Live
+Swarna Pragati Housing Microfinance Private Limited,HFC,RBI,NA,Live
+Kiara Microcredit Private Limited,MFI,RBI,NA,Live
+Khush Housing Finance Private Limited,HFC,RBI,NA,Live
+Berar Finance Limited,NBFC-D,RBI,NA,Live
+Meghdoot Mercantile Private Limited,NBFC,RBI,NA,Live
+Satya Micro Capital Limited,MFI,RBI,NA,Live
+Monarch Networth Capital Limited,Portfolio Manager,SEBI,NA,Live
+Suman Tiwari,RIAs,SEBI,NA,Live
+ADJ Utility Apps Private Limited (Khatabook),Corporate Agent,IRDAI,NA,Live
+Northeast Broking Services Limited,Stock Broker,SEBI,NA,Live
+Capri Global Housing Finance Limited,HFC,RBI,NA,Live
+Purple Finance Limited,NBFC,RBI,NA,Live
+Right Horizons Investment Advisory Services Private Limited,RIAs,SEBI,NA,Live
+Julius Baer Wealth Advisors (India) Private Limited,Research Analyst,SEBI,NA,Live
+Tiffany Finance Private Limited,NBFC,RBI,NA,Live
+Bhumika Consultancy Private Limited,Stock Broker,SEBI,NA,Live
+B.N.Rathi Securities Limited,Stock Broker,SEBI,NA,Live
+Angel One Investment Managers & Advisors Private Limited,Portfolio Manager,SEBI,NA,Live
+Allreach Commodities India Private Limited,Stock Broker,SEBI,NA,Live
+Centricity Advisory Services Private Limited,RIAs,SEBI,NA,Live
+Pyramid Finserve Private Limited,NBFC,RBI,NA,Live-enabled
+Tycoon Credit and Portfolios Limited,NBFC,RBI,NA,Live
+Belstar Microfinance Limited,MFI,RBI,NA,Live
+Vinayana Investment and Finance Private Limited,NBFC,RBI,NA,Live
+Gove Finance Limited,NBFC,RBI,NA,Live
+The Alchemists Ark Pvt. Ltd.,RIAs,SEBI,NA,Live
+Neo Wealth Management Private Limited,Stock Broker,SEBI,NA,Live
+Rajath Finance Limited,NBFC,RBI,NA,Live
+Appreciate Investment Advisory Private Limited,RIAs,SEBI,NA,Live
+SBFC Finance Limited,NBFC,RBI,NA,Live
+Infomerics Valuation And Rating Pvt Ltd,CRA,SEBI,NA,Live-enabled
+Bharosa Technoserve Private Limited,RIAs,SEBI,NA,Live
+LKP Securities Limited,Stock Broker,SEBI,NA,Live
+Lord Krishna Financial Services Limited,NBFC,RBI,NA,Live
+ICICI Prudential Asset Management Company Limited,AMC,SEBI,NA,Live-enabled
+SBI Cap Securities Limited,Stock Broker,SEBI,NA,Live
+Fin Coopers Capital Private Limited,NBFC-D,RBI,NA,Live
+RNVP Technology Private Limited,NBFC-P2P,RBI,NA,Live-enabled
+RB Money Financial Services Private Limited,NBFC,RBI,NA,Live-enabled
+Trickle Flood Technologies Private Limited,NBFC-P2P,RBI,NA,Live
+Yes Securities (India) Limited,Stock Broker,SEBI,NA,Live
+Essential Investment Managers Private Limited,RIAs,SEBI,NA,Live
+Vikas Money Limited,NBFC,RBI,NA,Live
+Wood Capital Finance Limited,NBFC,RBI,NA,Live
+Onebanc Technologies Private Limited,Research Analyst,SEBI,NA,Live
+Wealth lndia Financial Services Pvt. Ltd,RIAs,SEBI,NA,Live
+Kotak Securities Limited,Research Analyst,SEBI,NA,Live
+Digimoney Finance Private Limited,NBFC,RBI,NA,Live-enabled
+Share Microfin Limited,MFI,RBI,NA,Live
+Chintamani Finlease Limited,NBFC,RBI,NA,Live
+Dhilip Krishna SS Proprietor of Apta Investment Advisors,RIAs,SEBI,NA,Live
+Ambit Finvest Private Limited,NBFC,RBI,NA,Live
+Imfast Finfotech Private Limited,NBFC-P2P,RBI,NA,Live
+Shareway Securities Private Limited,Stock Broker,SEBI,NA,Live-enabled
+Sowilo Investment Managers LLP,Portfolio Manager,SEBI,NA,Live
+Sundaram Home Finance Limited,HFC,RBI,NA,Live-enabled
+North East Small Finance Bank Limited,Small Finance Bank,RBI,Evaluating,Live
+Apsire Finance Private Limited,NBFC,RBI,NA,Live-enabled
+Credifin Limited,NBFC,RBI,NA,Live
+K2VS Insurance Marketing Private Limited,Insurance Marketing Firms,IRDAI,NA,Live-enabled
+Deevena Mercantiles Private Limited,NBFC,RBI,NA,Live-enabled
+Criss Financial Limited,NBFC,RBI,NA,Live
+Equirus Capital Private Limited,Merchant Banker,SEBI,NA,Live
+Anand Rathi AIF III Trust,AIF,SEBI,NA,Live
+Strategic Finvest Private Limited,NBFC,RBI,NA,Live-enabled
+Equirus Wealth Private Limited,Research Analyst,SEBI,NA,Live-enabled
+Religare Housing Development Finance Corporation Limited,HFC,RBI,NA,Live
+Solomon Capital Limited,NBFC,RBI,NA,Live-enabled
+AAN Finance & Investment Private Limited,NBFC,RBI,NA,Live
+Veritas Finance Limited,NBFC,RBI,NA,Live
+Finstars Capital Limited,NBFC,RBI,NA,Live-enabled
+Reliance Securities Limited,Stock Broker,SEBI,NA,Live-enabled
+Enrich Financial Market Private Limited,Stock Broker,SEBI,NA,Live-enabled
+ITI Housing Finance Limited,HFC,RBI,NA,Live-enabled
+Bhanix Finance and Investment Limited,NBFC,RBI,NA,Live-enabled
+Nirmal Bang Securities Private Limited,Stock Broker,SEBI,NA,Live
+Bonanza Portfolio Limited,Stock Broker,SEBI,NA,Live
+Equirus Securities Private Limited,Research Analyst,SEBI,NA,Live
+Tapfin Capital Private Limited,NBFC,RBI,NA,Live-enabled
+Surjit Hire Purchase Private Limited,NBFC,RBI,NA,Live-enabled
+Mintbox Solutions Private Limited,Research Analyst,SEBI,NA,Live-enabled
+Kogta Financial (India) Limted,NBFC,RBI,NA,Live-enabled
+Upstox Securities Private Limited,Stock Broker,SEBI,NA,Live-enabled
+Purnartha Investment Advisers Pvt.Ltd,Portfolio Manager,SEBI,NA,Live-enabled
+Kubiz Capital Private Limited,NBFC,RBI,NA,Live-enabled
+Uniresearch Global Private Limited,Research Analyst,SEBI,NA,Live-enabled
+Nivara Home Finance Limited,HFC,RBI,NA,Live-enabled
+Jairaj Finvest Private Limited,NBFC,RBI,NA,Live-enabled
+Ritwik Finance Enterprise Private Limited,NBFC,RBI,NA,Live-enabled
+Capitalmind Financial Services Private Limited,Portfolio Manager,SEBI,NA,Live-enabled
+Satin Creditcare Network Limited (SCNL),NBFC,RBI,NA,Live-enabled
+Multipl Wealth Management Private Limited,RIAs,SEBI,NA,Live-enabled
+Jainam Broking Limited,Stock Broker,SEBI,NA,Live-enabled
+Agarwal Assignments Private Limited,NBFC,RBI,NA,Live-enabled
+Kotak Mahindra Prime Limited,NBFC,RBI,NA,Live-enabled
