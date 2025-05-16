@@ -1,0 +1,272 @@
+---
+title: "AML5251 AAPS Lab Final Exam, Even Semester 2025"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+#### Load libraries
+
+```{r}
+library(ggplot2)
+library(dplyr)
+library(mice)
+```
+
+#### Load the ICU dataset
+
+```{r}
+file = 'ICU_filtered.csv'
+dfICU = read.csv(file, header = TRUE, stringsAsFactors = TRUE)
+str(dfICU)
+```
+
+#### Print first 5 samples of the dataframe
+
+```{r}
+head(dfICU, n = 5)
+```
+
+#### Set ggplot theme for plotting
+
+```{r}
+My_Theme = theme(axis.text.x = element_text(size = 9),
+   axis.text.y = element_text(size = 9),
+   axis.title.x = element_text(size = 11),
+   axis.title.y = element_text(size = 11),
+   plot.title = element_text(size = 12, hjust = 0.5, face = "bold"))
+```
+
+#### Plot fraction of missing values (NAs) in each column of the data frame
+
+```{r}
+pMissDF = setNames(stack(sapply(dfICU, function(x){(sum(is.na(x))/length(x))*100}))[2:1], c('Feature','Value'))
+p = ggplot(data = pMissDF, aes(x = Feature, y = Value)) +
+  geom_bar(stat = 'identity', fill = 'steelblue', width = 0.3) +
+  xlab('') + ylab('Percentage') +
+  ggtitle('Percentage of NAs across all features')  +
+  My_Theme +
+  theme(axis.text.x = element_text(angle = 90, hjust = 1, vjust = 0.5))
+p
+```
+
+#### Drop columns (features) with more than 20% missing values
+
+```{r}
+dfICU = dfICU %>% select(-c(pMissDF[pMissDF['Value'] > 20, 'Feature']))
+```
+
+#### Collate 4 different ICU types (CCU, CSRU, SICU, CCU) into one column called 'ICU', remove separate ICU columns and the column 'recordid'
+
+```{r}
+dfICU[dfICU['CCU'] == 1, 'ICU'] = 1
+dfICU[dfICU['CSRU'] == 1, 'ICU'] = 2
+dfICU[dfICU['SICU'] == 1, 'ICU'] = 3
+dfICU[(dfICU['CCU'] == 0 ) & (dfICU['CSRU'] == 0) & (dfICU['SICU'] == 0), 'ICU'] = 4
+dfICU = dfICU %>% select(-c(CCU, CSRU, SICU, recordid))
+```
+
+#### Create list of ordinal, categorical, and continuous features
+
+```{r}
+features = colnames(dfICU)
+ordinal_features = c('GCS_first')
+categorical_features = c('Gender', 'MechVent', 'ICU')
+continuous_features = features[c(!(colnames(dfICU) %in% c(ordinal_features, categorical_features)))]
+```
+
+#### Convert ordinal and categorical columns to correct type
+
+```{r}
+dfICU[categorical_features] = lapply(dfICU[categorical_features], as.factor)
+dfICU[ordinal_features[1]] = lapply(dfICU[ordinal_features[1]], ordered, levels = seq(max(dfICU$GCS_first[!is.na(dfICU$GCS_first)]), min(dfICU$GCS_first[!is.na(dfICU$GCS_first)]), -1))
+str(dfICU)
+```
+
+#### Impute missing values using the MICE package
+
+```{r}
+dfICU = complete(mice(dfICU, m = 20, maxit = 10, pred = quickpred(dfICU, minpuc = 0.25), seed = 500))
+```
+
+#### Select only the continuous features while also excluding 'Length_of_stay'
+
+```{r}
+dfICU_continuous = dfICU %>% select(continuous_features, -Length_of_stay)
+head(dfICU_continuous)
+```
+
+#### Scale the data in dfICU_continuous
+
+```{r}
+X = scale(dfICU_continuous) # note that the output of the scale function is a matrix
+```
+
+#### Perform a PCA of the scaled data matrix
+
+```{r}
+# Calculate covariance matrix of scaled data matrix
+S = cov(X)
+
+# Calculate eigenvectors and eigenvalues of covariance matrix
+e = eigen(S)
+V = e$vectors # eigenvectors
+lambda = e$values # eigenvalues
+
+# Print column names, eigenvectors (loadings), and eigenvalues
+cat("column names: \n")
+colnames(dfICU_continuous)
+
+cat("EigenVectors: \n")
+print(V)
+
+cat("EigenValues: \n")
+print(lambda)
+```
+
+#### Note that PCA can also be performed using R in-built function prcomp()
+
+```{r}
+pca = prcomp(X)
+pca$rotation # extracting the eigenvectors matrix
+pca$sdev^2 # extracting the eigenvalues
+```
+
+#### Plot the PC1 loadings applied to all features
+
+```{r}
+dfPCA = data.frame(V)
+colnames(dfPCA) = paste0('PC', c(1:ncol(V)), 'L')
+ggplot(data = dfPCA) +
+  geom_bar(aes(x = 1:nrow(dfPCA), y = PC1L), stat = 'identity', width = 0.3, fill = 'steelblue') +
+   labs(x = 'Feature', y = 'PC1 Loading') +
+   ggtitle("PC1 Loading for All Features") +
+   My_Theme
+```
+
+#### Min-max normalize the absolute values of PC1 loadings and extract the top features based on a normalized threshold (0.6) for the PC1 loadings
+
+```{r}
+
+loadings = abs(dfPCA$PC1L)
+normalized_loadings = (loadings - min(loadings)) / (max(loadings) - min(loadings))
+colnames(dfICU_continuous)[which(normalized_loadings > 0.6)]
+```
+
+#### Calculate PC scores of all samples
+
+```{r}
+PC_scores = X %*% V
+df = as.data.frame(cbind(PC_scores)) # dataframe with PC scores
+colnames(df) = c(paste0('PC', c(1:ncol(V)), 'S'))
+```
+
+#### How much percentage of variance is explained by each principal component?
+
+```{r}
+percentage_explained_var = (lambda / sum(lambda)) * 100
+print(percentage_explained_var)
+```
+
+#### How many minimum principal components are needed to explain more than 80% of the variance in the data?
+
+```{r}
+which(cumsum(percentage_explained_var) >= 80)[1]
+```
+
+#### Load the California housing dataset
+
+```{r}
+# Load California housing data
+file = 'SaratogaHouses.csv'
+hData = read.csv(file, header = TRUE, stringsAsFactors = TRUE)
+str(hData)
+```
+
+#### Build a linear regression model for price as a function of all predictors
+
+```{r}
+model=lm(price ~ lotSize+ age+ landValue+livingArea+pctCollege+bedrooms+fireplaces+bathrooms+rooms+heating+fuel+sewer+waterfront+newConstruction+centralAir,data = hData)
+summary(model)
+```
+
+#### Calculate correlation matrix for continuous predictors
+
+```{r}
+# Identify numeric (continuous) variables
+ind_continuous <- sapply(hData, is.numeric)
+
+# Subset the data frame to include only numeric variables
+df_continuous <- hData[, ind_continuous]
+
+# Calculate the correlation matrix
+cor_matrix <- cor(df_continuous, use = "complete.obs")
+
+# Print the correlation matrix
+print(cor_matrix)
+```
+
+#### Build a linear regression model for price as a function of livingArea and rooms with an interaction between them
+
+```{r}
+model1 = lm(price ~ livingArea * rooms, data = hData)
+summary(model1)
+```
+
+#### Build a linear regression model for price as a function of heating and air-conditioning
+
+```{r}
+model2 <- lm(price ~ heating + centralAir, data = hData)
+summary(model2)
+```
+
+#### Build a linear regression model for price as a function of heating and air-conditioning with an interaction between them
+
+```{r}
+model3 <- lm(price ~ heating * centralAir, data = hData)
+summary(model3)
+```
+
+#### For hot air-heated houses, calculate the difference between the average price of air-conditioned and not air-conditioned houses; confirm that this is equal to $\hat{\beta}_3+\hat{\beta}_4.$
+
+```{r}
+# Refit model for clarity (optional if not already done)
+model11 <- lm(price ~ heating * centralAir, data = hData)
+
+# Check coefficient names
+coef(model11)
+
+# Extract relevant coefficients
+coef(model11)["centralAirYes"] + coef(model11)["heatinghot air:centralAirYes"]
+
+```
+
+#### Build a linear regression model for price as a function of livingArea and new
+
+```{r}
+model4 <- lm(price ~ livingArea + newConstruction, data = hData)
+summary(model4)
+```
+
+#### Make a scatter plot of price vs. livingArea color coded according to the predictor newConstruction.
+
+```{r}
+ggplot(data = hData) +
+  geom_point(aes(livingArea, y = price, color = newConstruction), size = 1) +
+     geom_abline(intercept = coef(model)['(Intercept)'], slope = coef(model)['livingArea'], color = 'orange')+ 
+   geom_abline(intercept = coef(model)['(Intercept)'] + coef(model)['newConstructionYes'], slope = coef(model)['livingArea'], color = 'cyan')+ 
+   labs(x = 'Living Area (Sq. ft)', y = 'Price ($)') + 
+   ggtitle("Interaction effect between livingArea and newConstruction") +
+   My_Theme
+```
+
+
+#### Using the model built above (price as a function of livingArea and new), predict the price of an old construction house with livingArea = 1000 sq. ft.
+
+```{r}
+predict(model4, newdata = data.frame(livingArea = 1000, newConstruction = "No"))
+```
