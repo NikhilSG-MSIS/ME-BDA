@@ -1,0 +1,350 @@
+---
+title: "AML5251 AAPS Lab Final Exam, Even Semester 2025"
+output:
+  html_document:
+    df_print: paged
+  word_document: default
+  pdf_document: default
+editor_options:
+  chunk_output_type: inline
+---
+
+#### Load libraries
+
+```{r}
+library(ggplot2)
+library(dplyr)
+```
+
+#### Load the wine dataset from UCI
+
+```{r}
+file = "https://archive.ics.uci.edu/ml/machine-learning-databases/wine/wine.data"
+df = read.csv(file, header = FALSE)
+
+# Assign column names (from the UCI documentation)
+colnames(df) = c("Class",
+                 "Alcohol", "Malic_Acid", "Ash", "Alcalinity_of_Ash",
+                 "Magnesium", "Total_Phenols", "Flavanoids",
+                 "Nonflavanoid_Phenols", "Proanthocyanins", 
+                 "Color_Intensity", "Hue", "OD280_OD315", "Proline")
+
+# Preview the dataset
+head(df)
+```
+
+#### Set ggplot theme for plotting
+
+```{r}
+My_Theme = theme(axis.text.x = element_text(size = 9),
+   axis.text.y = element_text(size = 9),
+   axis.title.x = element_text(size = 11),
+   axis.title.y = element_text(size = 11),
+   plot.title = element_text(size = 12, hjust = 0.5, face = "bold"))
+```
+
+#### Convert the feature 'class' to factor type
+
+```{r}
+df['Class'] = lapply(df['Class'], as.factor)
+str(df)
+```
+
+**Question 1:** perform a PCA of the data matrix by filling the missing information below:
+
+```{r}
+# Calculate eigenvalues & eigenvectors of sample covariance matrix
+X = scale(df %>% select(-c(Class)))
+
+# Calculate covariance matrix of scaled data matrix
+S = cov(X) 
+
+# Calculate eigenvectors and eigenvalues of covariance matrix
+e = eigen(S)
+V = e$vectors # eigenvectors
+lambda = e$values # eigenvalues
+
+# Print column names, eigenvectors, and eigenvalues
+colnames(dfICU_continuous)
+print(V)
+print(lambda)
+```
+
+**Question-2**: How much variance is explained by the first and second principal components?
+
+```{r}
+prop_var_explained = (lambda[1]+lambda[2])/ sum(lambda) * 100
+
+# View the variance explained
+print(prop_var_explained)
+```
+
+**Question-3:** make a line plot of the PC-1 scores.
+
+```{r}
+dfPCA = data.frame(X %*% V )
+dfPCA
+```
+
+```{r}
+colnames(dfPCA) = c('PC1')
+str(dfPCA)
+```
+
+```{r}
+dfPCA = data.frame(X %*% V[,1])
+colnames(dfPCA) = c('PC1')
+
+ggplot(data = dfPCA, aes(x = 1:nrow(dfPCA), y = PC1)) +
+  geom_line(color = "blue") +
+  My_Theme
+
+```
+
+**Question-4:** plot a bar plot of the loadings for the first principal component. Given this bar plot, what are the characteristics of an observation with a large, positive PC-1 score; and a large, negative PC-2 score?
+
+```{r}
+ggplot(dfPCA1, aes(x = reorder(Variable, Loading), y = Loading)) +
+  geom_bar(stat = 'identity', fill = 'steelblue', width = 0.5) +
+  coord_flip() +
+  labs(title = "Loadings for First Principal Component (PC1)", x = "Variable", y = "Loading") +
+  My_Theme
+```
+
+```{r}
+ggplot(dfPCA2, aes(x = reorder(Variable, Loading), y = Loading)) +
+  geom_bar(stat = 'identity', fill = 'steelblue', width = 0.5) +
+  coord_flip() +
+  labs(title = "Loadings for First Principal Component (PC2)", x = "Variable", y = "Loading") +
+  My_Theme
+```
+
+```{r}
+dfPCA1 = data.frame(Variable = colnames(X), Loading = V[,1])
+```
+
+```{r}
+dfPCA2 = data.frame(Variable = colnames(X), Loading = V[,2])
+```
+
+```{r}
+## Refer to this website http://archive.ics.uci.edu/ml/datasets/Auto+MPG
+## for the data set that we will modify a bit in the next cell
+autompg = read.table(
+  "http://archive.ics.uci.edu/ml/machine-learning-databases/auto-mpg/auto-mpg.data",
+  quote = "\"",
+  comment.char = "",
+  stringsAsFactors = FALSE)
+
+```
+
+```{r}
+# Give the dataframe column names
+colnames(autompg) = c("mpg", "cyl", "disp", "hp", "wt", "acc", "year", "origin", "name")
+```
+
+**Question 5: print the structure of the unedited data set. How many samples and features are there?**
+
+```{r}
+str(df)
+```
+
+**Here we modify data set; just execute this cell and understand what is happening.**
+
+```{r}
+# Give the dataframe column names
+colnames(autompg) = c("mpg", "cyl", "disp", "hp", "wt", "acc", "year", "origin", "name")
+
+# Remove samples with missing horsepower (hp) values represented as "?"
+autompg = autompg %>% filter(hp != '?')
+
+# Remove samples with name "plymouth reliant"
+autompg = autompg %>% filter(name != 'plymouth reliant')
+
+# Give the dataframe row names in the form based on the engine, year and name
+rownames(autompg) = paste(autompg$cyl, "cylinder", autompg$year, autompg$name)
+
+# Select all features except "name"
+autompg = autompg %>% select(-name)
+
+# Change horsepower from character to numeric
+autompg$hp = as.numeric(autompg$hp)
+
+# Modify origin column to reflect local (1) and international models (0)
+autompg = autompg %>% mutate(origin = ifelse(!(origin %in% c(2, 3)), 'local', 'international'))
+
+# Filter samples with 3 and 5 cylinder cars (which are very rare)
+autompg = autompg %>% filter(!(cyl %in% c(3, 5)))
+
+# Change cyl and origin columns to factor types
+catcols = c('cyl', 'origin')
+autompg[catcols] = lapply(autompg[catcols], factor)
+```
+
+**Question 6: print the first 20 rows of the data frame.**
+
+```{r}
+head(autompg, n = 383)
+```
+
+**Question 7: print the structure of the modified data frame. How many samples and features are there? Which features are categorical?**
+
+```{r}
+str(autompg)
+```
+
+383 samples 8 features and 2 categorical
+
+**Question 8: how many levels does the categorical variable *origin* have? What is the reference level?**
+
+origin 2 levels : local AND international, international IS THE level
+
+```{r}
+model = lm(data = autompg, mpg ~ origin)
+summary(model)
+```
+
+```{r}
+dummy.coef(autompg$origin)
+```
+
+**Question 9: Create a scatter plot of mpg (y-axis) vs. number of cylinders (x-axis).**
+
+```{r}
+ggplot(data = autompg, aes(x = cyl, y = mpg)) +geom_point(alpha = 0.3)+My_Theme
+```
+
+**Question 10: Create a scatter plot of mpg vs. displacement by color coding the points according to the number of cylinders.**
+
+```{r}
+ggplot(data = autompg, aes(x = mpg, y = disp)) +geom_point(alpha = 0.3, color = autompg$cyl)+My_Theme
+```
+
+**Question 11: Create a scatter plot of mpg vs. displacement by color coding the points according to the origin (local or international).**
+
+```{r}
+autompg['origin_'] = lapply(autompg['origin'], as.factor)
+str(autompg)
+```
+
+```{r}
+ggplot(data = autompg, aes(x = mpg, y = disp)) +geom_point(alpha = 0.3, aes(colour = autompg$origin ))+My_Theme
+```
+
+**Question 12: fit a linear model for approximating *mpg* as a function of *displacement* and *origin*. Print the model's summary.**
+
+```{r}
+model1 = lm(data = autompg, mpg ~ disp + origin)
+summary(model1)
+```
+
+**Question 13: Extract the slope and intercept for estimating the mpg of local and international categories. It would be helpful to start with the regression equation** $\hat{y}^{(i)} = \hat{\beta}_0 + \hat{\beta}_1x_1^{(i)} + \hat{\beta}_2x_2^{(i)}$ and then write two separate equations for local and international categories.
+
+```{r}
+intercept_international = coef(model1)[1] 
+intercept_local = coef(model1)[1] + coef(model1)[3]
+
+slope_international = coef(model1)[2]
+slope_local = coef(model1)[2]
+```
+
+**Question 15: to the scatter plot you created for mpg. vs displacement color coded using origin, add two separete regression lines for local and domestic cars.**
+
+```{r}
+p3 = ggplot(autompg, aes(x = disp, y = mpg, color = origin)) +
+  geom_point()
+```
+
+```{r}
+p3 %+% geom_abline(intercept = intercept_international, slope = slope_international, color = 'red', linewidth = 1, linetype = 1) +
+   geom_abline(intercept =intercept_local + coef(model1)[2] , slope = slope_local, color = 'blue', linewidth = 1, linetype = 1)
+```
+
+**Question 16: Fit a linear model for mpg as a function of displacement and origin including an interaction effect between the predictors. Print the summary of the model.**
+
+```{r}
+model2 = lm(data = autompg, mpg ~ disp + origin + disp:origin)
+summary(model2)
+```
+
+**Question 17: Extract the slope and intercept for estimating the mpg of local and international categories. It would be helpful to start with the regression equation** $\hat{y}^{(i)} = \hat{\beta}_0 + \hat{\beta}_1x_1^{(i)} + \hat{\beta}_2x_2^{(i)} + \hat{\beta}_3x_3^{(i)}$ and then write two separate equations for local and international categories. In this equation, $x_3^{(i)}$ is the interaction effect variable.
+
+```{r}
+coefs = coef(model2)
+
+intercept_international = coefs["(Intercept)"]
+slope_international = coefs["disp"]
+
+intercept_local = coefs["(Intercept)"] + coefs["originlocal"]
+slope_local = coefs["disp"] + coefs["disp:originlocal"]
+
+cat("International cars:\n")
+cat("  Intercept:", round(intercept_international, 5), "\n")
+cat("  Slope:", round(slope_international, 5), "\n\n")
+
+cat("Local cars:\n")
+cat("  Intercept:", round(intercept_local, 5), "\n")
+cat("  Slope:", round(slope_local, 5), "\n")
+```
+
+**Question 18: Create a scatter plot of mpg vs. displacement by color coding the points according to the origin (domestic or international), and add separate regression lines for international and local cars.**
+
+```{r}
+library(ggplot2)
+
+ggplot(autompg, aes(x = disp, y = mpg, color = origin)) +
+  geom_point() +  # Scatter plot points
+  geom_smooth(method = "lm", aes(color = origin), se = FALSE) +  # Add separate regression lines
+  labs(
+    title = "MPG vs Displacement by Origin",
+    x = "Displacement (disp)",
+    y = "Miles Per Gallon (mpg)"
+  ) +
+  scale_color_manual(values = c("blue", "red")) +  # Custom colors for origin
+  theme_minimal()
+
+```
+
+**Question 19: Fit a linear model for mpg as a function of *displacement* and *hp*. Print the model's summary.**
+
+```{r}
+model3 = lm(data = autompg, mpg ~ disp + hp)
+summary(model3)
+```
+
+**Question 20: predict the mpg of a car with displacement = 375 and hp = 175.**
+
+```{r}
+new_data = data.frame(disp = 375, hp = 175)
+
+predicted_mpg = predict(model3, new_data)
+
+cat("Predicted MPG for displacement = 375 and hp = 175:", round(predicted_mpg, 2), "\n")
+```
+
+**Question 21: Fit a linear model for *mpg* as a function of *displacement* and *hp* including an interaction term between the predictors. Print the model's summary.**
+
+```{r}
+model4 = lm(data = autompg, mpg ~ disp + hp + disp:hp)
+summary(model4)
+```
+
+**Question 22**: using the interaction model, predict the mpg of a car with displacement = 375 and hp = 175.
+
+```{r}
+new_data = data.frame(disp = 375, hp = 175)
+
+predicted_mpg = predict(model4, new_data)
+
+cat("Predicted MPG for displacement = 375 and hp = 175:", round(predicted_mpg, 2), "\n")
+```
+
+**Question 23**: Using both non-interaction and interaction models, predict the mpg of a car with displacement = 400, hp = 250.
+
+```{r}
+new_data1 = data.frame(disp = 400, hp = 250)
+predicted_mpg11 = predict(model3, new_data1)
+predicted_mpg22 = predict(model4, new_data1)
+cat("Predicted MPG  without interaction for displacement = 400 and hp = 250:", round(predicted_mpg11, 2), "\n")
+cat("Predicted MPG with interaction for displacement = 400 and hp = 250:", round(predicted_mpg22, 2), "\n")
+```
