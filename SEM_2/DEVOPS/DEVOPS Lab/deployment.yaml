@@ -1,0 +1,52 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-tomcat-app
+  labels:
+    app: java-tomcat-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: java-tomcat-app
+  template:
+    metadata:
+      labels:
+        app: java-tomcat-app
+    spec:
+      containers:
+      - name: java-tomcat-app
+        image: sgnikhil/javatomcatexample2:v2  # <-- Replace with your actual image name
+        ports:
+        - containerPort: 8080  # or whatever port your app is listening on
+        # If you already have your app bundled inside the image, no need for volumeMounts
+        # You can remove volumeMounts and volumes unless needed
+
+
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: java-tomcat-app
+#   labels:
+#     app: java-tomcat-app
+# spec:
+#   replicas: 1
+#   selector:
+#     matchLabels:
+#       app: java-tomcat-app
+#   template:
+#     metadata:
+#       labels:
+#         app: java-tomcat-app
+#     spec:
+#       containers:
+#       - name: java-tomcat-app
+#         image: tomcat:9.0  # Using the official Tomcat image, modify if a custom image is required
+#         ports:
+#         - containerPort: 8080  # Tomcat's default port
+#         volumeMounts:
+#         - name: java-tomcat-app-volume
+#           mountPath: /usr/local/tomcat/webapps  # Tomcat's default directory for WAR files
+#       volumes:
+#       - name: java-tomcat-app-volume
+#         emptyDir: {}  # Placeholder, replace with PersistentVolume if required
