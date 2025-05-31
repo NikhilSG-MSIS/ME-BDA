@@ -1,0 +1,3 @@
+[submodule "SEM_2/DEVOPS/DEVOPS Lab/python_demoapp_monitoring"]
+	path = SEM_2/DEVOPS/DEVOPS Lab/python_demoapp_monitoring
+	url = https://github.com/Nikhil-SG/python-demoapp-monitoring.git
